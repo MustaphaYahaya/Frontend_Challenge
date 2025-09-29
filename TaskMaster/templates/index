@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My App | Home</title>
+    <link rel="stylesheet" href="../static/style.css">
+   <link rel="stylesheet" href="../static/bootstrap.min.css">
+   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<body>
+    <header>
+        <img src="../static/images/logo.png" alt="logo">
+        <span>
+            My TO-DO list App</span>
+            <div class="btn">
+                <button><i class="material-icons">menu</i></button> 
+            </div>
+        
+    </header>
+        <main>
+            <div id="heading">
+                <h1>Welcome To My First TO&#8209;DO List App</h1>
+                <p>
+                    This is my first TO-DO list App project, design for practicing my 
+                    skills and master it, in order to be confident with myself
+                </p>
+            </div>
+
+            <div class="disc">
+                <h2>Features</h2>
+                <p>
+                    This app is Task Management system that has the ability to take 
+                    users schedule, 
+                    record on a table and sort them using date and time by priotising 
+                    the ones the will immediately happans. 
+                    The App allows users to create, update, and delete task. 
+                    Users can also organize tasks by proirty and set deadlines.
+                    The system is scalable, secure and optimized for performance.
+                </p>
+            </div>
+            <div class="disc">
+                <h2>Core Functionalities</h2>
+                <p>The system has the following Functionalities:</p>
+                <dl>
+                    <dt>Users Resgistration and Authenticatiuon:</dt>
+                    <dd>- A secure registration and login system using
+                        JSON or sesions.</dd>
+                    <dd>- Include Password hashing using bcrypt.</dd>
+
+                    <dt>Task Management:</dt>
+                    <dd>- Users can create task with attributes such as title,
+                        description, deadline and priority</dd>
+                    <dd>- Users can update or delete tasks.</dd>
+
+                    <dt>Task Filtering:</dt>
+                    <dd>- The app include filtering system where users can filter tasks
+                        based on priority or due date</dd>
+                    
+                    <dt>Search Functionality:</dt>
+                    <dd>- Users can search for task based on keywords in the 
+                        title or description.</dd>
+                    
+                </dl>
+            </div>
+            <div class="disc">
+                <h2>Stacks</h2>
+                <ul>
+                    <li>Frontend</li>
+                    <li>Backend</li>
+                    <li>Database</li>
+                </ul>
+            </div>
+        </main>
+        <hr/>
+        <footer>
+        <h3>Links</h3>
+        <ul> 
+            <li><a href="https://www.facebook.com/share/1BFC3bASHu/">FaceBook | Mustapha Yahaya</a></li>
+            <li><a href="https://x.com/ibnyahayamusty?s=08 ">X | Mustapha Yahaya</a></li>
+            <li><a href="www.facebook.com/Mustaphayahaya">LinkedIn | Mustapha Yahaya</a></li>
+            <li><a href="https://www.instagram.com/mustee_yahya?igsh=MWd5aW1hN3V1MWhnMA==">Instagram | @mustee_yahya</a></li>
+            <li><a href="https://wa.me/qr/ZFDD7BP2JJAHL1 ">WhatsApp | Mustapha Yahaya</a></li>
+        </ul>
+            
+        </footer>
+</body>
+</html>
+ 
