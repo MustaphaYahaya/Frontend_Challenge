@@ -5,29 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My App | Home</title>
     <link rel="stylesheet" href="../static/style.css">
-   <link rel="stylesheet" href="../static/bootstrap.min.css">
    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 </head>
 <body>
     <header>
         <img src="../static/images/logo.png" alt="logo">
-        <span>
-            My TO-DO list App</span>
+        <div id="brand">
+            TaskMaster</div>
+            <nav>
+                <a href="#">Sign Up</a>
+                <a href="#">Sign ip</a>
+            </nav>
             <div class="btn">
                 <button><i class="material-icons">menu</i></button> 
             </div>
         
     </header>
         <main>
-            <div id="heading">
+            <section id="heading">
                 <h1>Welcome To My First TO&#8209;DO List App</h1>
                 <p>
                     This is my first TO-DO list App project, design for practicing my 
                     skills and master it, in order to be confident with myself
                 </p>
-            </div>
+            </section>
 
-            <div class="disc">
+            <section class="disc">
                 <h2>Features</h2>
                 <p>
                     This app is Task Management system that has the ability to take 
@@ -38,8 +41,8 @@
                     Users can also organize tasks by proirty and set deadlines.
                     The system is scalable, secure and optimized for performance.
                 </p>
-            </div>
-            <div class="disc">
+            </section>
+            <section class="disc">
                 <h2>Core Functionalities</h2>
                 <p>The system has the following Functionalities:</p>
                 <dl>
@@ -62,28 +65,72 @@
                         title or description.</dd>
                     
                 </dl>
-            </div>
-            <div class="disc">
+            </section>
+            <section class="disc">
                 <h2>Stacks</h2>
                 <ul>
-                    <li>Frontend</li>
-                    <li>Backend</li>
-                    <li>Database</li>
+                    <div class="card"> 
+                        <li>Frontend</li>
+                        <ul>
+                            <li>HTML5</li>
+                            <li>CSS3</li>
+                            <li>JavaScript</li>
+                        </ul>
+                    </div>
+
+                    <div class="card">
+                        <li>Backend</li> 
+                        <ul>
+                            <li>Python</li>
+                            <li>Flask</li>
+                        </ul>
+                    </div>
+
+                    <div class="card">
+                        <li>Database</li>
+                        <ul>
+                            <li>SQLAlchamy</li>
+                        </ul>
+                    </div>
+                   
+                   
+                    
                 </ul>
-            </div>
+               
+               
+            </section>
         </main>
-        <hr/>
         <footer>
-        <h3>Links</h3>
-        <ul> 
-            <li><a href="https://www.facebook.com/share/1BFC3bASHu/">FaceBook | Mustapha Yahaya</a></li>
-            <li><a href="https://x.com/ibnyahayamusty?s=08 ">X | Mustapha Yahaya</a></li>
-            <li><a href="www.facebook.com/Mustaphayahaya">LinkedIn | Mustapha Yahaya</a></li>
-            <li><a href="https://www.instagram.com/mustee_yahya?igsh=MWd5aW1hN3V1MWhnMA==">Instagram | @mustee_yahya</a></li>
-            <li><a href="https://wa.me/qr/ZFDD7BP2JJAHL1 ">WhatsApp | Mustapha Yahaya</a></li>
-        </ul>
-            
+            <section class="footer-card">
+                <h3>Partners</h3>
+                <ul> 
+                    <li><a href="https://www.facebook.com/share/1BFC3bASHu/">FaceBook | Mustapha Yahaya</a></li>
+                    <li><a href="https://x.com/ibnyahayamusty?s=08 ">X | Mustapha Yahaya</a></li>
+                    <li><a href="www.facebook.com/Mustaphayahaya">LinkedIn | Mustapha Yahaya</a></li>
+                    <li><a href="https://www.instagram.com/mustee_yahya?igsh=MWd5aW1hN3V1MWhnMA==">Instagram | @mustee_yahya</a></li>
+                    <li><a href="https://wa.me/qr/ZFDD7BP2JJAHL1 ">WhatsApp | Mustapha Yahaya</a></li>
+                </ul> 
+            </section>    
+            <section class="footer-card">
+                <h3>About Us</h3>
+                <ul> 
+                    <li><a href="https://www.facebook.com/share/1BFC3bASHu/">FaceBook | Mustapha Yahaya</a></li>
+                    <li><a href="https://x.com/ibnyahayamusty?s=08 ">X | Mustapha Yahaya</a></li>
+                    <li><a href="www.facebook.com/Mustaphayahaya">LinkedIn | Mustapha Yahaya</a></li>
+                    <li><a href="https://www.instagram.com/mustee_yahya?igsh=MWd5aW1hN3V1MWhnMA==">Instagram | @mustee_yahya</a></li>
+                    <li><a href="https://wa.me/qr/ZFDD7BP2JJAHL1 ">WhatsApp | Mustapha Yahaya</a></li>
+                </ul> 
+            </section>    
+            <section class="footer-card">
+                <h3>My Profiles</h3>
+                <ul> 
+                    <li><a href="https://www.facebook.com/share/1BFC3bASHu/">FaceBook | Mustapha Yahaya</a></li>
+                    <li><a href="https://x.com/ibnyahayamusty?s=08 ">X | Mustapha Yahaya</a></li>
+                    <li><a href="www.facebook.com/Mustaphayahaya">LinkedIn | Mustapha Yahaya</a></li>
+                    <li><a href="https://www.instagram.com/mustee_yahya?igsh=MWd5aW1hN3V1MWhnMA==">Instagram | @mustee_yahya</a></li>
+                    <li><a href="https://wa.me/qr/ZFDD7BP2JJAHL1 ">WhatsApp | Mustapha Yahaya</a></li>
+                </ul> 
+            </section>    
         </footer>
 </body>
 </html>
- 
