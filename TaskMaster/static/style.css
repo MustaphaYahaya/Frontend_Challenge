@@ -10,53 +10,60 @@ header {
     top: 0;
     margin: 0;
     padding: 10px;
-    text-align: center;
-    height: 7vw;
-    padding-top: auto;
-    padding-bottom: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    vertical-align: middle;
 }
 
-header span {
+header #brand {
     text-shadow: 2px 1px 5px #a03aa0;
-    font-size: 4vw;
+    font-size: 30px;
     font-weight: bold;
+    margin: auto;
 } 
 
 header img {
-    border-radius: 100px;
-    /* float: left; */ 
-    width: 5vw;
+    border-radius: 100%;
+    width: 50px;
     
 }
 
+header nav {
+    margin: auto;
+    margin-right: 0;
+
+}
+header nav a {
+    text-decoration: none;
+    padding: 10px;
+    color: #000;
+    background-color: #a03aa0;
+    border-radius: 30px;
+    margin: auto;
+}
+header nav a:hover {
+    color: #000;
+    background-color: #a03aa05f;
+    border: 1px solid #411441;
+}
+
 header button {
-    float: right;
+    display: none;
     background-color: inherit;
     border: 1px solid #a03aa0;
     border-radius: 5px;
     font-size: medium;
-    padding-top: auto;
-    padding-bottom: auto; 
 }
 
-.btn {
-    width: 10vw;
-    padding-top: auto;
-    padding-bottom: auto;
-    float: right; 
-}
-.element {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('your-image.jpg');
-  /* Adjust the rgba values for desired opacity and color */
-}
 
 #heading {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url(../static/images/design4.png) no-repeat fixed;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+     url(../static/images/background.jpg) no-repeat fixed;
     background-size: cover;
     width: 100%;
     height: auto;
     padding: 20px;
-    border-radius: 0 0 20px 20px;
     text-align: center;
     font-weight: bold;
     margin-left: auto;
@@ -79,29 +86,118 @@ header button {
 .disc {
     border-radius: 20px;
     padding: 20px;
+    text-align: justify;
     margin: 20px;
     background-color: #eef2f6;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
+.disc dl {
+    text-align: left;
+    margin-left: 20%;
+}
+.disc>ul{
+    list-style: none;
+    text-align: left;   
+    justify-content: space-between;  display: flex;
+}
+.card>li{
+    font-size: medium;
+    font-weight: bold;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;   
+   
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.footer-card {
+    display: inline-block;
+    margin: 10px;
+}
+
+.footer-card li{
+    list-style: none;
+    padding: 5px 0;
+}
+.footer-card a{
+   text-decoration: none;
+   color: black;
+}
+.footer-card a:hover{
+   text-decoration: none;
+   color: #a03aa0;
+}
+
 @media screen and (max-width: 480px) {
     header {
-        height: 20vw;
         padding-top: auto;
-        text-align: left;
         padding-bottom: auto;
+        text-align: left;
+        
     }
     header img {
-        width: 14vw;
-        border-redius: 100%;
+        width: 50px;
+        border-radius: 100%;
+        margin-top: auto;
+        margin-bottom: auto;
     }
     
-    hearder span {
-       font-size: 10vw;
-       width: 10vw;
+    header span {
+       font-size: 20px;
        padding-top: auto;
        padding-bottom: auto;
+       margin-top: auto;
+       margin-bottom: auto;
     }
-    
-    
-} 
+
+    header button {
+        display: block;
+        background-color: inherit;
+        border: 1px solid #a03aa0;
+        border-radius: 5px;
+        font-size: medium;
+    }
+
+    header nav {
+        display: none;
+    }
+
+    button {
+        display: block;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    footer {
+        flex-direction: column;
+    }
+    .footer-card:first-child {
+        background-color: rgb(160, 58, 160, 0.7);
+        margin: 0;
+        color: #000;
+    }
+    .footer-card:first-child a:hover {
+        color: #c92323;
+    }
+    .footer-card:nth-child(even) {
+        background-color: rgb(1, 1, 1);
+        margin: 0;
+        color: rgb(204, 198, 198);
+    }
+    .footer-card:nth-child(even) a {
+       color: rgb(202, 196, 196);
+    }
+    .footer-card:nth-child(even) a:hover {
+       color: rgb(44, 20, 124);
+    }
+    .footer-card:last-child {
+        background-color: rgba(1, 1, 1, 0.5);
+        margin: 0;
+    }
+}
